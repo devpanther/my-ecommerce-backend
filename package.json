@@ -1,0 +1,36 @@
+{
+  "name": "eccomerce-node-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "7.2.6",
+    "bcrypt": "5.0.0",
+    "cookie-parser": "1.4.5",
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-graphql": "0.11.0",
+    "graphql": "15.3.0",
+    "graphql-date": "1.0.3",
+    "graphql-type-datetime": "0.2.4",
+    "graphql-type-long": "0.1.1",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "4.17.20",
+    "mongoose": "5.10.8",
+    "mongoose-simple-random": "0.4.1",
+    "stripe": "8.118.0",
+    "validator": "13.1.17"
+  },
+  "engines": {
+    "node": "12.13.1",
+    "npm": "6.12.1"
+  }
+}
